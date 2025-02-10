@@ -1,5 +1,5 @@
 # Comparacao-LightGBM-x-XGBoost
-# Previsão de Renda com Machine Learning
+# Classificação para Programa de Intercâmbio
 
 ## Descrição
 
