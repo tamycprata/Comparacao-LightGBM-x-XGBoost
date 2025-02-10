@@ -13,6 +13,10 @@ O dataset utilizado é o "Adult" da UCI, disponível em: [http://archive.ics.uci
 
 Este dataset contém informações sobre idade, escolaridade, estado civil, ocupação, etc., de indivíduos adultos, juntamente com a informação sobre a renda (acima ou abaixo de 50k).
 
+## Análise dos Dados
+
+A análise dos dados está representada no arquivo Analise dos Dados.ipynb. E consolidado no arqivo Registro da Análise e  Limpeza dos dados.
+
 ## Pré-processamento
 
 As seguintes etapas de pré-processamento foram realizadas:
@@ -37,12 +41,19 @@ Os modelos foram avaliados com base nas seguintes métricas:
 * **ROC AUC Score:** Mede a capacidade do modelo de distinguir entre as classes, considerando a taxa de verdadeiros positivos e a taxa de falsos positivos em diferentes thresholds.
 
 ## Resultados
+Essas metricas foram obtidas SEM limpeza dos dados. Essa execução está em ML_Comparacao LightGBM e XGBoost.ipynb.
+| Métrica | XGBoost | LightGBM |
+|---|---|---|
+| Acurácia | 82.30% | 82.20%	 |
+| ROC AUC Score | 78.92% | 79.16% |
+| Tempo de Execução |  0:00:01.024304 | 0:00:00.240119 |
 
+Essas métricas foram obtidas COM a limpeza dos dados. Essa execução está em ML_Comparacao LightGBM e XGBoost v2.ipynb.
 | Métrica | XGBoost | LightGBM |
 |---|---|---|
 | Acurácia | 86.04% | 86.15% |
-| ROC AUC Score | 78.92% | 79.16% |
-| Tempo de Execução |  0:00:01.024304 | 0:00:00.240119 |
+| ROC AUC Score | 69.92%	 | 69.67%	 |
+| Tempo de Execução |  00:00:00.456402 | 00:00:00.318086 |
 
 
 ## Conclusões
