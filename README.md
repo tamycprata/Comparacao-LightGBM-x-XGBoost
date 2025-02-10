@@ -3,7 +3,7 @@
 
 ## Descrição
 
-Este projeto tem como objetivo construir uma máquina preditiva que, a partir de dados históricos, faça a previsão da renda de colaboradores de uma empresa. 
+Este projeto visa construir uma Máquina Preditiva que, para ser usada na classificação de uma pessoa para participar ou de um programa de intercâmbio.
 
 Utilizamos algoritmos de Machine Learning, especificamente XGBoost e LightGBM, para treinar modelos capazes de classificar indivíduos em diferentes faixas de renda. O projeto inclui etapas de pré-processamento dos dados, treinamento dos modelos e avaliação do desempenho.
 
